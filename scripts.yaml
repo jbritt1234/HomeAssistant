@@ -1,0 +1,234 @@
+########################################
+# LOFT (cover.smart_curtain_motor)
+########################################
+loft_open_blinds:
+  alias: "Blinds - Loft - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+loft_close_blinds:
+  alias: "Blinds - Loft - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+loft_cat_mode:
+  alias: "Blinds - Loft - Cat Mode"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor
+        position: 70
+      action: cover.set_cover_position
+  mode: single
+  icon: mdi:roller-shade
+
+
+########################################
+# MBR - LEFT (cover.smart_curtain_motor_2)
+########################################
+mbr_left_open_blinds:
+  alias: "Blinds - MBR - Left - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_2
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+mbr_left_close_blinds:
+  alias: "Blinds - MBR - Left - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_2
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+mbr_left_cat_mode:
+  alias: "Blinds - MBR - Left - Cat Mode"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_2
+        position: 36
+      action: cover.set_cover_position
+  mode: single
+  icon: mdi:roller-shade
+
+
+########################################
+# MBR - RIGHT (cover.smart_curtain_motor_3)
+########################################
+mbr_right_open_blinds:
+  alias: "Blinds - MBR - Right - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_3
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+mbr_right_close_blinds:
+  alias: "Blinds - MBR - Right - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_3
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+mbr_right_cat_mode:
+  alias: "Blinds - MBR - Right - Cat Mode"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_3
+        position: 36
+      action: cover.set_cover_position
+  mode: single
+  icon: mdi:roller-shade
+
+
+########################################
+# KITCHEN (cover.smart_curtain_motor_4)
+########################################
+kitchen_open_blinds:
+  alias: "Blinds - Kitchen - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_4
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+kitchen_close_blinds:
+  alias: "Blinds - Kitchen - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_4
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+
+########################################
+# DEN (cover.smart_curtain_motor_5)
+########################################
+den_open_blinds:
+  alias: "Blinds - Den - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_5
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+den_close_blinds:
+  alias: "Blinds - Den - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_5
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+
+########################################
+# LR - LEFT (cover.smart_curtain_motor_6)
+########################################
+lr_left_open_blinds:
+  alias: "Blinds - LR - Left - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_6
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+lr_left_close_blinds:
+  alias: "Blinds - LR - Left - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_6
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+lr_left_cat_mode:
+  alias: "Blinds - LR - Left - Cat Mode"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_6
+        position: 72
+      action: cover.set_cover_position
+  mode: single
+  icon: mdi:roller-shade
+
+
+########################################
+# LR - CENTER (cover.smart_curtain_motor_7)
+########################################
+lr_center_open_blinds:
+  alias: "Blinds - LR - Center - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_7
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+lr_center_close_blinds:
+  alias: "Blinds - LR - Center - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_7
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+lr_center_cat_mode:
+  alias: "Blinds - LR - Center - Cat Mode"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_7
+        position: 72
+      action: cover.set_cover_position
+  mode: single
+  icon: mdi:roller-shade
+
+
+########################################
+# LR - RIGHT (cover.smart_curtain_motor_8)
+########################################
+lr_right_open_blinds:
+  alias: "Blinds - LR - Right - Open"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_8
+      action: cover.open_cover
+  mode: single
+  icon: mdi:blinds-open
+
+lr_right_close_blinds:
+  alias: "Blinds - LR - Right - Close"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_8
+      action: cover.close_cover
+  mode: single
+  icon: mdi:blinds
+
+lr_right_cat_mode:
+  alias: "Blinds - LR - Right - Cat Mode"
+  sequence:
+    - data:
+        entity_id: cover.smart_curtain_motor_8
+        position: 72
+      action: cover.set_cover_position
+  mode: single
+  icon: mdi:roller-shade
